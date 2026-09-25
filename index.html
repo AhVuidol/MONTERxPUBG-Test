@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>MONTERxPUBG</title>
+
+    <meta name="description"
+          content="Kho Game iOS & Android">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div id="logoLoader">
+    <img src="assets/logo/logoi.PNG" alt="MONTERxPUBG">
+</div>
+<div id="downloadPopup" class="download-popup">
+
+    <div class="download-box">
+
+        <h2>THÔNG BÁO</h2>
+
+        <p class="download-version"></p>
+
+        <p id="downloadMessage"></p>
+
+        <a id="continueDownload" href="#">
+            TIẾP TỤC
+        </a>
+
+        <button id="cancelDownload">
+            Hủy
+        </button>
+
+    </div>
+
+</div>
+
+<audio id="bgmusic" loop preload="auto" playsinline>
+    <source src="assets/music/monter1.mp3" type="audio/mpeg">
+</audio>
+
+<!-- POPUP -->
+
+<div id="popup" class="popup">
+
+<div class="popup-box">
+
+    <div class="popup-logo">
+        <img src="assets/logo/logoi.PNG" alt="MONTERxPUBG">
+    </div>
+
+    <h2>MONTERxPUBG</h2>
+
+    <p class="popup-text">
+Tham Gia Telegram Để Nhận Thông Báo Mới Nhất
+</p>
+
+<p class="popup-text2">
+🎮 Chúc Anh Em Chơi Game Vui Vẻ ❤️
+</p>
+
+    <div class="popup-social">
+
+        <a href="https://t.me/monterhax"
+           class="popup-social-btn telegram"
+           target="_blank">
+            ✈ Telegram
+        </a>
+
+        <a href="https://discord.gg/WpTBK7Xf4"
+           class="popup-social-btn discord"
+           target="_blank">
+            💬 Discord
+        </a>
+
+        <a href="https://youtube.com/@yukixpubg?si=pzZhqqFdUeLm0XE8"
+           class="popup-social-btn youtube"
+           target="_blank">
+            ▶ YouTube
+        </a>
+
+    </div>
+
+    <button id="closePopup" class="popup-enter-btn">
+        Vào Website
+    </button>
+<div class="popup-status">
+    <span class="online-dot"></span>
+    <div>
+        <strong>Web Đang Hoạt Động</strong>
+        <small>Update 24/7</small>
+    </div>
+</div>
+</div>
+
+</div>
+
+<!-- HEADER -->
+
+<header class="header">
+
+    <div class="logo">
+
+        <img src="assets/logo/logoi.PNG" class="logo" alt="MONTERxPUBG">
+
+    </div>
+
+    <div class="header-text">
+
+        <h1>MONTERxPUBG</h1>
+
+        <p>
+
+            Kho Game iOS & Android
+    
+        </p>
+        <p>
+
+            Web Tải Hack & Lấy Key Free Mỗi Ngày
+    
+        </p>
+
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">
+        <span></span><span></span><span></span>
+    </button>
+
+</header>
+
+<!-- MOBILE MENU / CATEGORY -->
+<nav class="category-bar" aria-label="Danh mục game">
+  <a href="#pubg" data-target="pubg" class="active"><span>♟</span> PUBG MOBILE</a>
+  <a href="#lqm" data-target="lqm"><span>⚔</span> LIÊN QUÂN</a>
+  <a href="#ff" data-target="ff"><span>♨</span> FREE FIRE</a>
+  <a href="#other" data-target="other"><span>🎮</span> GAME KHÁC</a>
+</nav>
+
+<div class="menu-drawer" id="menuDrawer" aria-hidden="true">
+  <div class="menu-backdrop" id="menuBackdrop"></div>
+  <div class="menu-panel">
+    <button class="menu-close" id="menuClose" aria-label="Đóng">×</button>
+    <div class="menu-title">MONTERxPUBG</div>
+    <a href="#pubg" data-target="pubg">♟ PUBG MOBILE</a>
+    <a href="#lqm" data-target="lqm">⚔ LIÊN QUÂN</a>
+    <a href="#ff" data-target="ff">♨ FREE FIRE</a>
+    <a href="#other" data-target="other">🎮 GAME KHÁC</a>
+    <div class="menu-divider"></div>
+    <a href="https://t.me/monterhax" target="_blank">✈ Telegram</a>
+    <a href="https://youtube.com/@monterios-m.o.d?si=j3nvL7ldtCmqcgjk" target="_blank">▶ YouTube</a>
+  </div>
+</div>
+
+<!-- SOCIAL -->
+<!-- ===== THÔNG BÁO ===== -->
+
+<div class="news-bar">
+
+    <div class="news-wrap">
+        
+        <div class="news-text">
+
+            PUBG MOBILE 4.6 ĐÃ UPDATE ĐẦY ĐỦ • Tham Gia Nhóm Để Nhận Được Thông Báo Sớm Nhất • FREE FIRE ĐÃ UPDATE • LQM iOS ĐÃ UPDATE • KEY RESET 24H
+            
+        </div>
+        
+    </div>
+
+</div>
+<section class="social-top">
+
+<a class="discord" href="https://discord.gg/yamuuUC6k">💬 Discord</a>
+
+<a class="telegram" href="https://t.me/monterhax">✈ Telegram</a>
+
+<a class="youtube" href="https://youtube.com/@monterios-m.o.d?si=j3nvL7ldtCmqcgjk">▶ YouTube</a>
+
+</section>
+
+
+<!-- MENU -->
+
+<!-- BẮT ĐẦU PHẦN GAME -->
+<!-- =========================
+PUBG MOBILE
+========================= -->
+
+<section class="games" id="pubg">
+
+<h2>HACK PUBG iOS</h2>
+
+<!-- Dracula Pro -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+<div class="image-box">
+    <img src="assets/images/pubg-dracula.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Dracula Pro 4.6</h3>
+
+<p>• Chơi Mod Skin Thì Bật Nhà Phát Triển Lên</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Ffmdanift9999.plist%3Fv%3D69fff56fe1bfb7d5">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://ontops.link/3DQSOoq">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/TX8aYUkjDcSVIeq2ko2AyzeNDTXzHZ_2/2379/o3nmapr.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Luxury -->
+<div class="game-card">
+    <div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+    <div class="image-box">
+    <img src="assets/images/pubg-luxury.PNG">
+</div>
+
+    <div class="game-card-body">
+
+    <h3>Hack Pubg Luxury 4.6</h3>
+    <p>• Menu Full Tiếng Việt</p>
+
+    <div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fhecoiwc02222.plist%3Fv%3D2d06c9ce367f8d94">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://ontops.link/3DTQrSx">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/i8c01EDNcKmHGcNoMvjUvkAYbyUlzxiX/2381/byysodg.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Tipa -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+<div class="image-box">
+    <img src="assets/images/pubg-tipa.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Pubg Tipa 4.6</h3>
+
+<p>• Cài Qua TrollStore Hỗ Trợ iOS Thấp</p>
+
+<div class="buttons">
+
+    <a class="install tipa" href="https://appinstall.cloud/tipa-file/0so8a6uuUg71CLcRD_idhwowzD35rkFs/1969/729anbv.tipa">
+        Link TiPa
+    </a>
+
+    <a class="key" href="https://ontops.link/SlWD3nQ">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- VNHAX PUBG -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+<div class="image-box">
+    <img src="assets/images/pubg-vnhax.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Pubg VNHAX 4.6</h3>
+
+<p>• Bản Này Chơi Ngon</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fjp2tnws33333.plist%3Fv%3D4b69500c861ca022">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://ontops.link/3GyDXQS">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/ZoW3cECq0pkj3O_Nk-x8T17KPAnv26Uk/2394/qcuplpm.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+    <!-- PUBG TUMADAM -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+    <div class="image-box">
+    <img src="assets/images/pubg-tumadam.PNG">
+</div>
+
+    <div class="game-card-body">
+
+        <h3>Hack Pubg Tumadam 4.6</h3>
+        
+        <p>• Bấm Góc Trái Trên Cùng Màn Để Mở Menu</p>
+        <p>• Trước Khi Vô Trận Nhớ Tắt Hiện Skin Balo & Sảnh</p>
+
+        <div class="buttons">
+
+    <a class="ipa" href="https://dl.ipas.cc/ipas/2x1lak.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://ontops.link/3QzSDRp">
+        Lấy Key
+    </a>
+</div>
+
+    </div>
+
+</div>
+
+    
+
+    <!-- RAVEN -->
+<div class="game-card">
+    <div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+    <div class="image-box">
+    <img src="assets/images/pubg-raven.PNG">
+</div>
+
+    <div class="game-card-body">
+
+    <h3>Hack Pubg Raven 4.6</h3>
+    <p>• Bấm Góc Trái Trên Cùng Màn Để Mở Menu</p>
+
+    <div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Ftvlyemik6666.plist%3Fv%3Ddd2a2807522e843d">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://ontops.link/SV3ytQD">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/CiVQP7JUZh8ul0VYs9Dq8ONWQ-XEMMMJ/2524/nx6khb4.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+    
+
+    <!-- Dophin -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.5
+</div>
+<div class="image-box">
+    <img src="assets/images/pubg-dophin.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Pubg Dophin 4.5</h3>
+
+<p>• Tap 3 Ngón Vào Màn Để Mở Menu</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Forcghgcr5555.plist%3Fv%3D0419c9a5bca57d71">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://ontops.link/3x4QSGD">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/pMFkjOK1cxNUe6mZJtZkMUpQIGlrIPib/2398/cz0zlmt.ipa">
+Link iPA
+</a>
+    
+</div>
+
+</div>
+
+</div>
+
+<!-- PUBG ZORO -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+<div class="image-box">
+    <img src="assets/images/pubg-zorov.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Pubg Zoro 4.6</h3>
+
+<p>• Chơi Kín Thì An Toàn</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Forcghgcr5555.plist%3Fv%3D0ed1ddac39c185e0">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://ontops.link/EDQdS3X">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/pMFkjOK1cxNUe6mZJtZkMUpQIGlrIPib/2398/cz0zlmt.ipa">
+Link iPA
+</a>
+    
+</div>
+
+</div>
+
+</div>
+    
+ <h2>HACK PUBG Android</h2>
+<!-- PUBG Android Red -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+<div class="image-box">
+    <img src="assets/images/pubg-red.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Pubg Red 4.6</h3>
+
+<p>• Red Update Online Nên Không Cần Xoá Tải Lại</p>
+
+<div class="buttons">
+
+    <a class="install apk64" href="https://t.me/monterhax/1159">
+        Apk Red 64Bit
+    </a>
+
+    <a class="key" href="https://ontops.link/EQDuE3T">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PUBG Android Java -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE 4.6
+</div>
+<div class="image-box">
+    <img src="assets/images/pubg-java.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Pubg Java 4.6</h3>
+
+<p>• Java Update Online Nên Không Cần Xoá Tải Lại</p>
+<p>• Đến Chỗ Get Key Chọn Cái Nào Có [ PUBG MOBILE ] Thôi Nhé</p>
+
+<div class="buttons">
+
+    <a class="install apk64" href="https://t.me/monterhax/1161">
+        Apk Java 64Bit
+    </a>
+
+    <a class="key" href="https://ontops.link/T5lQDN3">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+LIÊN QUÂN MOBILE
+========================= -->
+
+<section class="category" id="lqm">
+
+<h2 id="lqm-title">HACK LQM iOS</h2>
+
+<!-- Dracula Pro -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE MÙA S3
+</div>
+<div class="image-box">
+    <img src="assets/images/lqm-dracula.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Liên Quân Dracula</h3>
+
+<p>• Liên Quân Mùa S3</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fpklbyzh25555.plist%3Fv%3Df5cc11f311d927bd">
+       Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/xYe4oRdnN">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/z6AChVZESLdCiJJjsvGHAzqDA7-Plai8/2387/1njwvwj.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Chấp Tố Độc Quyền -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE MÙA S3
+</div>
+<div class="image-box">
+    <img src="assets/images/lqm-chaptodocquyen.png">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Liên Quân Chấp Tố</h3>
+
+<p>• Liên Quân Mùa S3</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2F2oszfmx66666.plist%3Fv%3Dd82fb5df4877abe0">
+       Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/JEpsW0edx">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/if7bVX0dQhqMz_lMn7zhOsP_rNEEy11s/2393/cgcmcqf.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Full Chức Năng -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE MÙA S3
+</div>
+<div class="image-box">
+    <img src="assets/images/lqm-fullchucnang.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Liên Quân Full Chức Năng</h3>
+
+<p>• Liên Quân Mùa S3</p>
+
+<div class="buttons">
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/y2aQVfnlpxZE1yZb_D6mPWHPbVIEnc_m/1460/gcuxafi.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://layma.net/Ylum5GmHj">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Luxury -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE MÙA S3
+</div>
+<div class="image-box">
+    <img src="assets/images/lqm-auto.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Liên Quân Auto Zata & Auto Đạn Thorne</h3>
+
+<p>• Liên Quân Mùa S3</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fngjpayg23333.plist%3Fv%3D7946a9a9eb7412e6">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/HhLzi3FfE">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/5RxT1sIfPG_zR2nhLA2bgakFvDHNMbp5/2391/kteyj5z.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+    <!-- Zoro -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE MÙA S3
+</div>
+<div class="image-box">
+    <img src="assets/images/lqm-zoro.jpg">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Liên Quân ZoRo</h3>
+
+<p>• Liên Quân Mùa S3</p>
+
+<div class="buttons">
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/MbshLhFG24XgEqR-WOH-08ahpEHqUcJt/2392/m6j8dxz.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://layma.net/vegJHBvYd">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+    <!-- AOV VN -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE MÙA S3
+</div>
+<div class="image-box">
+    <img src="assets/images/lqm-aovvn.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Liên Quân Xoá Tố</h3>
+
+<p>• Liên Quân Mùa S3</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fum51gbf43333.plist%3Fv%3D15a2bb61fd6a8864">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/XuiJiYtPx">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/EXnKxr6aHWXc9htTSDpxMHWdFKInckMw/1410/eciccrn.ipa">
+Link iPA
+</a>
+</div>
+
+</div>
+
+</div>
+</section>
+<!-- =========================
+FREE FIRE
+========================= -->
+
+<section class="category" id="ff">
+
+<h2 id="ff-title">HACK FREE FIRE iOS</h2>
+
+<!-- Free Fire iOS -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE Ob55
+</div>
+<div class="image-box">
+    <img src="assets/images/freefire-zoro.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Free Fire ZoRo</h3>
+
+<p>• Free Fire Ob55</p>
+<p>• Tải Free Fire Thường Gốc Về Log Acc</p>
+<p>• Mở Hack Lên Chọn Game , Chọn Vào Chạy Hack Là Ok</p>
+    
+<div class="buttons">
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/MGtU1ajmSe0xTw3Y8u8MQqn0P8B15BNw/2289/ahkw9ns.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://layma.net/EhXJACF5b">
+        Lấy Key
+    </a>
+</div>
+
+</div>
+
+</div>
+
+<!-- Free Fire Migul -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE Ob55
+</div>
+<div class="image-box">
+    <img src="assets/images/freefire-migul.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Free Fire Migul</h3>
+
+<p>• Free Fire Ob55</p>
+<p>• Bản Này Gần Như Đã Fix All Lỗi Văng Nếu Máy Của Anh Em Mạnh</p>
+<p>• Máy Yếu Từ 11Prm Không Chịu Nổi Sẽ Văng Nhiều Hơn</p>
+    
+<div class="buttons">
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/lRT3LrEcLNCEDgWZZpJ9Vn_-U9X2iczt/2555/7mvbszq.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://layma.net/vabm2UoMH">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+    
+<!-- Tipa Free Fire -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE Ob55
+</div>
+<div class="image-box">
+    <img src="assets/images/freefire-tipa.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Tipa Free Fire</h3>
+
+<p>• Free Fire Ob55</p>
+<p>• Cài Qua TrollStore Hỗ Trợ iOS Thấp</p>
+
+<div class="buttons">
+
+    <a class="install tipa" href="https://appinstall.cloud/tipa-file/ODGHPKK67Hgwi1JyWBPd2sOFSjElEfy2/2298/9di0mwm.tipa">
+       Link TiPA
+    </a>
+
+    <a class="key" href="https://layma.net/BBcK40HzQ">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Tipa Free Fire Max -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE Ob55
+</div>
+<div class="image-box">
+    <img src="assets/images/freefiremax-tipa.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Tipa Free Fire Max</h3>
+
+<p>• Free Fire Ob55</p>
+<p>• Cài Qua TrollStore Hỗ Trợ iOS Thấp</p>
+
+<div class="buttons">
+
+    <a class="install tipa" href="https://appinstall.cloud/tipa-file/vFv3MKIr7TMJYhTtliPp6QyOVqI5Gmgd/1312/2qpkf1g.tipa">
+        Link TiPA
+    </a>
+
+    <a class="key" href="https://layma.net/yX4gx2ph5">
+        Lấy Key
+    </a>
+
+</div>
+    
+</div>
+
+</div>
+    
+</section>
+<!-- =========================
+GAME KHÁC
+========================= -->
+    
+<section class="category" id="other">
+
+<h2 id="other-title">HACK ALL GAME iOS</h2>
+
+<!-- Play Together -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE
+</div>
+<div class="image-box">
+    <img src="assets/images/playtogether-ios.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Play Together</h3>
+
+<p>• Play Together</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fiu0ehzi00000.plist%3Fv%3Df893c1a6b6a45459">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/iRJR1cKIb">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/QnpLqaCW4Cw1cH67UuFVuz0k-jaxE08K/2382/ebojtlq.ipa">
+Link iPA
+</a>
+    
+</div>
+
+</div>
+
+</div>
+
+<!-- Zing Speed -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE
+</div>
+<div class="image-box">
+    <img src="assets/images/zingspeed-ios.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Zing Speed</h3>
+
+<p>• Zing Speed Mobile</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fan9warfu7777.plist%3Fv%3Daaa40faf25164b21">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/EzNf8fA3v">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/YOXvWbxfTqE256uF5KWu8-CUYTD0iHud/2399/0bfg16l.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Delta Force -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE
+</div>
+<div class="image-box">
+    <img src="assets/images/deltaforce-ios.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Delta Force</h3>
+
+<p>• Delta Force</p>
+
+<div class="buttons">
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/dAO0FTkcq8jzQuxzN18kSxONrhGW3nd0/2210/mcalugz.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://layma.net/oXRhbFW8i">
+        Lấy Key
+    </a>
+  
+</div>
+
+</div>
+
+</div>
+
+<!-- Liên Minh Tốc Chiến -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE
+</div>
+<div class="image-box">
+    <img src="assets/images/lmtc-ios.PNG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Liên Minh Tốc Chiến</h3>
+
+<p>• Wild Rift</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Fzacgoaks0000.plist%3Fv%3Dd0544277cba24240">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/waLoTyYpB">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/u7N9ShiWO0VzcIrMT5hK-v1wpDiveSSb/2549/wnaw02x.ipa">
+Link iPA
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- 8 Ball Pool -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE
+</div>
+<div class="image-box">
+    <img src="assets/images/8ballpool-ios.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack 8 Ball Pool</h3>
+
+<p>• 8 Ball Pool</p>
+
+<div class="buttons">
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/s0vPM6Z0592WkI_Q4XZrkHJ5YSZbv9Ap/1514/sboispa.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://layma.net/sO9u6BL8Y">
+        Lấy Key
+    </a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Fc Mobile -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE
+</div>
+<div class="image-box">
+    <img src="assets/images/fcmobile-ios.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Fc Mobile iOS</h3>
+
+<p>• Lưu Ý : Không Phải Chức Năng Gì Cũng Bật Được Mọi Lúc Mọi Nơi</p>
+
+<div class="buttons">
+
+    <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fappinstall.cloud%2Fplist%2Ffyhqllhp6666.plist%3Fv%3D53f999293aa308cc">
+        Link Trực Tiếp
+    </a>
+
+    <a class="key" href="https://layma.net/BAsx2yPk6">
+        Lấy Key
+    </a>
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/p8uRANDXXDfu8g7JemZvQ6J1Ju_9xr0H/2383/bceuxix.ipa">
+Link iPA
+</a>
+    
+</div>
+    
+</div>
+
+</div>
+
+    <!-- Valorant Mobile -->
+
+<div class="game-card">
+<div class="status updated">
+    ĐÃ UPDATE
+</div>
+<div class="image-box">
+    <img src="assets/images/valorant-ios.JPG">
+</div>
+
+<div class="game-card-body">
+
+<h3>Hack Valorant Mobile</h3>
+
+<p>• Lưu Ý : Nhớ Bật Nhà Phát Triển Lên</p>
+
+<div class="buttons">
+
+    <a class="ipa" href="https://appinstall.cloud/ios-file/DV2CcOCTwlDwQbljCo8HQAmRKi0pEuSl/2544/wrddbpe.ipa">
+Link iPA
+</a>
+
+    <a class="key" href="https://layma.net/5KKjwwLjw">
+        Lấy Key
+    </a>
+    
+</div>
+    
+</div>
+
+</div>
+</section>
+<!-- QUICK STATS -->
+<section class="quick-stats">
+  <a href="https://t.me/monterhax" target="_blank"><strong>✈</strong><span>TELEGRAM<small>Tham gia nhóm</small></span></a>
+  <a href="https://youtube.com/@monterios-m.o.d?si=j3nvL7ldtCmqcgjk" target="_blank"><strong>▶</strong><span>YOUTUBE<small>Kênh chính thức</small></span></a>
+  <div><strong>▣</strong><span>CẬP NHẬT<small>25/09/2026</small></span></div>
+  <div><strong>♟</strong><span>THÀNH VIÊN<small>25.643+</small></span></div>
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+
+<h2>
+
+MONTERxPUBG
+
+</h2>
+
+<p>
+
+Kho Game iOS & Android
+
+</p>
+    
+<p class="footer-slogan">
+🔥 ViP • Safe • Antiban 🔥
+</p>
+    
+<div class="social">
+
+<a
+href="https://t.me/monterhax">
+
+Telegram
+
+</a>
+
+<a
+href="https://discord.gg/yamuuUC6k">
+
+Discord
+
+</a>
+
+<a
+href="https://youtube.com/@monterios-m.o.d?si=j3nvL7ldtCmqcgjk">
+
+YouTube
+
+</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 MONTERxPUBG
+
+</p>
+
+</footer>
+
+<!-- Back To Top -->
+<button id="backToTop" class="back-to-top">
+⬆️
+</button>
+
+<!-- =========================
+SCRIPT
+========================= -->
+<div id="galaxy"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
